@@ -8,6 +8,7 @@
       --cor2: rgb(255, 145, 0);
       --cor3: rgb(255, 174, 0);
       --cor4: rgb(155, 88, 0);
+      --cor5: rgb(82, 1, 136);
 
 
       --fonte-padrao: Kanit;
@@ -105,6 +106,245 @@
         }
 
         main > a{
-            color: white;
+            color: var(--cor4);
+            font-family: kanit;
+            font-size: 25px;
+            font-weight: bold;
             text-decoration: none;
+        }
+
+        .catego{
+            background-image: linear-gradient(to bottom, rgb(32, 0, 121), rgb(99, 0, 192));
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: block;
+            font-family: kanit;
+            text-align: center;
+            margin: 73px 0px 0px 5px;
+            height: 51px;
+            width: 300px;
+        }
+
+        .icone{
+            padding: 14px 8px 14px 0px;
+            vertical-align: middle;
+            width: 23px;
+            height: 23px;
+        }
+
+        .regras{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 20px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .regras:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .perguntas{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .perguntas:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .spawn{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .spawn:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .lojas{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .lojas:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .quests{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .quests:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .mundos{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .mundos:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .biomas{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .biomas:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .arvore{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .arvore:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .novos_itens{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .novos_itens:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .plantacoes{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .plantacoes:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .comidas{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .comidas:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .mobs{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .mobs:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .boss{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .boss:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        .dungeons{
+            background-color: var(--cor2);
+            border-radius: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 5px 0px 0px 15px;
+            padding: 0px 0px 0px 20px;
+            height: 48px;
+            width: 280px;
+        }
+
+        .dungeons:hover{
+            background-color: rgb(255, 175, 26);
+        }
+
+        iframe {
+            margin: 10px 10px 10px 10px;
+            height: 400px;
+            width: 70vw;
+            border: 1px solid black;
         }
