@@ -26,6 +26,7 @@
 
 ::-webkit-scrollbar-thumb{
     background-color: var(--cor3);
+    border-radius: 50px;
 }
 
         body{
@@ -340,11 +341,4 @@
 
         .dungeons:hover{
             background-color: rgb(255, 175, 26);
-        }
-
-        iframe {
-            margin: 10px 10px 10px 10px;
-            height: 400px;
-            width: 70vw;
-            border: 1px solid black;
         }
