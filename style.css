@@ -1,7 +1,92 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+
+:root{
+      --cor0: black;
+      --cor1: white;
+      --cor2: rgb(255, 145, 0);
+      --cor3: rgb(255, 174, 0);
+      --cor4: rgb(155, 88, 0);
+
+
+      --fonte-padrao: Kanit;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
         body{
-            background-color: black;
+            background-color: var(--cor0);
+        }
+
+        header{      
+            margin: 0px 10px 0px 10px;
+        }
+
+        nav{
+            display: flex;
+        }
+
+        div.bloco {
+            background-image: url('imagens/logo\ 007.png');
+            background-image: linear-gradient();
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            border-radius: 10px;
+            height: 278px;
+        }
+
+        .wiki {
+            background-color: var(--cor3);  
+            border-radius: 7px; 
+            color: var(--cor4);
+            font-family: Kanit;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 580px;
+            margin-bottom: 10px;
+            margin-right: 215px;
+            text-decoration: none;
+            text-align: center;
+            width: 100px;
+            padding: 3px 10px 3px 10px;
+        }
+
+        .ipp{
+            background-color: rgb(255, 174, 0);
+            border-radius: 7px;
+            color: rgb(155, 88, 0);
+            font-family: kanit;
+            font-size: 23px;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+        }
+
+        .ipp:hover{
+            background-color: rgb(255, 215, 85);
+        }
+
+
+        .icon{
+            background-color: rgb(69, 69, 236);
+            border-radius: 6px;
+            margin: 10px 0px 0px 0px;
+            text-align: right;
+            padding: 9px 13px 9px 13px;
+            width: 40px;
+            height: 39px;
+        }
+
+        .icon:hover{
+            background-color: rgb(115, 115, 250);
+        }
+
+        header{
+            color: var(--cor1);
         }
