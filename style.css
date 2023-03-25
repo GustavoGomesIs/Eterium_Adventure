@@ -90,3 +90,9 @@
         header{
             color: var(--cor1);
         }
+
+        main{
+            border: 1px solid rgb(255, 255, 255);
+            color: white;
+            display: inline-block;
+        }
