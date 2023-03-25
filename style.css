@@ -18,6 +18,15 @@
     padding: 0px;
 }
 
+::-webkit-scrollbar{
+    background-color: var(--cor1);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor3);
+}
+
         body{
             background-color: var(--cor0);
         }
@@ -93,4 +102,9 @@
 
         main{
             color: white;
+        }
+
+        main > a{
+            color: white;
+            text-decoration: none;
         }
